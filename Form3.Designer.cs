@@ -36,9 +36,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(373, 147);
+            button1.Location = new Point(480, 173);
+            button1.Margin = new Padding(4);
             button1.Name = "button1";
-            button1.Size = new Size(136, 37);
+            button1.Size = new Size(175, 44);
             button1.TabIndex = 0;
             button1.Text = "ClickToSignup";
             button1.UseVisualStyleBackColor = true;
@@ -46,19 +47,22 @@
             // 
             // button2
             // 
-            button2.Location = new Point(373, 229);
+            button2.Location = new Point(480, 269);
+            button2.Margin = new Padding(4);
             button2.Name = "button2";
-            button2.Size = new Size(136, 36);
+            button2.Size = new Size(175, 42);
             button2.TabIndex = 1;
             button2.Text = "ClickToLogin";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click_1;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(267, 157);
+            label1.Location = new Point(343, 185);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(50, 17);
+            label1.Size = new Size(62, 20);
             label1.TabIndex = 2;
             label1.Text = "SignUp";
             label1.Click += label1_Click;
@@ -66,24 +70,27 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(267, 239);
+            label2.Location = new Point(343, 281);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(40, 17);
+            label2.Size = new Size(50, 20);
             label2.TabIndex = 3;
             label2.Text = "Login";
             label2.Click += label2_Click;
             // 
             // Form3
             // 
-            AutoScaleDimensions = new SizeF(7F, 17F);
+            AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1029, 529);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(button1);
+            Margin = new Padding(4);
             Name = "Form3";
             Text = "Form3";
+            Load += Form3_Load;
             ResumeLayout(false);
             PerformLayout();
         }

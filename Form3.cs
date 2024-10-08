@@ -36,8 +36,17 @@ namespace WinFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2(); // 创建 Form2 窗体实例
-            form2.Show(); // 显示 Form2
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2(); // 创建 Form1 窗体实例
+            form2.Show(); // 显示 Form1
             this.Hide(); // 隐藏当前的 Form3 窗体
         }
     }

@@ -10,5 +10,29 @@
     <Compile Update="Form3.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ActivityNews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CheckFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TeacherForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SubmitFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PersonalProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LostAndFound.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
