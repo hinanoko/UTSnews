@@ -120,3 +120,4 @@ D:\Application Development with .Net\code\Test4\WinFormsApp1\WinFormsApp1\obj\De
 D:\Application Development with .Net\code\Test4\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.SubmitFeedback.resources
 D:\Application Development with .Net\code\Test4\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AdminForm.resources
 D:\Application Development with .Net\code\Test4\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.TeacherForm.resources
+D:\Application Development with .Net\code\Test4\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.PublishForm.resources

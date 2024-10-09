@@ -19,6 +19,12 @@
     <Compile Update="AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="LostAndFound.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PublishForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="TeacherForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -26,9 +32,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PersonalProfile.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="LostAndFound.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="MainForm.cs">

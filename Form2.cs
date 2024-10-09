@@ -62,6 +62,9 @@ namespace WinFormsApp1
                 var result = await response.Content.ReadAsStringAsync();
                 var userResponse = JsonConvert.DeserializeObject<LoginResponse>(result);
 
+                GlobalState.UserName = userResponse.User.Name;
+                GlobalState.UserEmail = userResponse.User.Email;
+
                 // 显示成功消息
                 MessageBox.Show($"Login successful! Welcome, {userResponse.User.Name}.");
 
