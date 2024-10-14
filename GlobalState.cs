@@ -10,5 +10,7 @@ namespace WinFormsApp1
     {
         public static string UserName { get; set; }
         public static string UserEmail { get; set; }
+
+        public static string UserRole { get; set; }
     }
 }

@@ -103,7 +103,7 @@ namespace WinFormsApp1
             // 发送 POST 请求到后端 API
             try
             {
-                HttpResponseMessage response = await client.PostAsync("https://localhost:5132/api/Users", content);
+                HttpResponseMessage response = await client.PostAsync("https://localhost:5132/api/Users/register", content);
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -112,7 +112,8 @@ namespace WinFormsApp1
                 }
                 else
                 {
-                    MessageBox.Show("注册失败，请稍后再试。");
+                    string errorContent = await response.Content.ReadAsStringAsync();
+                    MessageBox.Show($"register failed：{errorContent}");
                 }
             }
             catch (Exception ex)

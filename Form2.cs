@@ -64,6 +64,7 @@ namespace WinFormsApp1
 
                 GlobalState.UserName = userResponse.User.Name;
                 GlobalState.UserEmail = userResponse.User.Email;
+                GlobalState.UserRole = userResponse.User.Identity;
 
                 // 显示成功消息
                 MessageBox.Show($"Login successful! Welcome, {userResponse.User.Name}.");

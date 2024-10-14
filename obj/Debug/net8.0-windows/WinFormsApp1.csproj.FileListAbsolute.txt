@@ -121,3 +121,8 @@ D:\Application Development with .Net\code\Test4\WinFormsApp1\WinFormsApp1\obj\De
 D:\Application Development with .Net\code\Test4\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AdminForm.resources
 D:\Application Development with .Net\code\Test4\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.TeacherForm.resources
 D:\Application Development with .Net\code\Test4\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.PublishForm.resources
+D:\Application Development with .Net\code\Test4\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.TeacherSignUp.resources
+D:\Application Development with .Net\code\Test4\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.PublishActivity.resources
+D:\Application Development with .Net\code\Test4\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.CheckInformation.resources
+D:\Application Development with .Net\code\Test4\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.DeleteActivity.resources
+D:\Application Development with .Net\code\Test4\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.DeleteLost.resources

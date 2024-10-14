@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1
 {
-    partial class CheckFeedback
+    partial class DeleteActivity
     {
         /// <summary>
         /// Required designer variable.
@@ -29,44 +29,65 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            flowLayoutPanel1 = new FlowLayoutPanel();
+            textBox1 = new TextBox();
+            button1 = new Button();
+            label2 = new Label();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(34, 15);
+            label1.Location = new Point(119, 59);
             label1.Name = "label1";
-            label1.Size = new Size(99, 17);
+            label1.Size = new Size(165, 17);
             label1.TabIndex = 0;
-            label1.Text = "CheckFeedback";
+            label1.Text = "delete the activity you want";
             // 
-            // flowLayoutPanel1
+            // textBox1
             // 
-            flowLayoutPanel1.Location = new Point(45, 65);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(656, 332);
-            flowLayoutPanel1.TabIndex = 1;
-            flowLayoutPanel1.FlowDirection = FlowDirection.TopDown; // Set flow direction to top down
-            flowLayoutPanel1.AutoScroll = true; // Enable scrolling
-                                                // 
-                                                // CheckFeedback
-                                                // 
+            textBox1.Location = new Point(261, 152);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(100, 23);
+            textBox1.TabIndex = 1;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(415, 152);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 2;
+            button1.Text = "Delete";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(86, 150);
+            label2.Name = "label2";
+            label2.Size = new Size(28, 17);
+            label2.TabIndex = 3;
+            label2.Text = "ID: ";
+            // 
+            // DeleteActivity
+            // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(flowLayoutPanel1);
+            Controls.Add(label2);
+            Controls.Add(button1);
+            Controls.Add(textBox1);
             Controls.Add(label1);
-            Name = "CheckFeedback";
+            Name = "DeleteActivity";
             Text = "Form4";
             ResumeLayout(false);
             PerformLayout();
         }
 
-
         #endregion
 
         private Label label1;
-        private FlowLayoutPanel flowLayoutPanel1;
+        private TextBox textBox1;
+        private Button button1;
+        private Label label2;
     }
 }

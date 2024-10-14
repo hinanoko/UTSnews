@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1
 {
-    partial class CheckFeedback
+    partial class CheckInformation
     {
         /// <summary>
         /// Required designer variable.
@@ -29,44 +29,75 @@
         private void InitializeComponent()
         {
             label1 = new Label();
+            label2 = new Label();
+            textBox1 = new TextBox();
+            button1 = new Button();
             flowLayoutPanel1 = new FlowLayoutPanel();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(34, 15);
+            label1.Location = new Point(32, 64);
             label1.Name = "label1";
-            label1.Size = new Size(99, 17);
+            label1.Size = new Size(179, 17);
             label1.TabIndex = 0;
-            label1.Text = "CheckFeedback";
+            label1.Text = "check someone's information";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(37, 118);
+            label2.Name = "label2";
+            label2.Size = new Size(42, 17);
+            label2.TabIndex = 1;
+            label2.Text = "email:";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(115, 115);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(216, 23);
+            textBox1.TabIndex = 2;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(427, 118);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 3;
+            button1.Text = "Check";
+            button1.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel1
             // 
-            flowLayoutPanel1.Location = new Point(45, 65);
+            flowLayoutPanel1.Location = new Point(28, 174);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(656, 332);
-            flowLayoutPanel1.TabIndex = 1;
-            flowLayoutPanel1.FlowDirection = FlowDirection.TopDown; // Set flow direction to top down
-            flowLayoutPanel1.AutoScroll = true; // Enable scrolling
-                                                // 
-                                                // CheckFeedback
-                                                // 
+            flowLayoutPanel1.Size = new Size(601, 224);
+            flowLayoutPanel1.TabIndex = 4;
+            // 
+            // CheckInformation
+            // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(flowLayoutPanel1);
+            Controls.Add(button1);
+            Controls.Add(textBox1);
+            Controls.Add(label2);
             Controls.Add(label1);
-            Name = "CheckFeedback";
+            Name = "CheckInformation";
             Text = "Form4";
             ResumeLayout(false);
             PerformLayout();
         }
 
-
         #endregion
 
         private Label label1;
+        private Label label2;
+        private TextBox textBox1;
+        private Button button1;
         private FlowLayoutPanel flowLayoutPanel1;
     }
 }
