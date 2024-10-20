@@ -38,54 +38,61 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(32, 64);
+            label1.Location = new Point(59, 105);
+            label1.Margin = new Padding(6, 0, 6, 0);
             label1.Name = "label1";
-            label1.Size = new Size(179, 17);
+            label1.Size = new Size(309, 28);
             label1.TabIndex = 0;
             label1.Text = "check someone's information";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(37, 118);
+            label2.Location = new Point(69, 194);
+            label2.Margin = new Padding(6, 0, 6, 0);
             label2.Name = "label2";
-            label2.Size = new Size(42, 17);
+            label2.Size = new Size(73, 28);
             label2.TabIndex = 1;
             label2.Text = "email:";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(115, 115);
+            textBox1.Location = new Point(214, 189);
+            textBox1.Margin = new Padding(6, 5, 6, 5);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(216, 23);
+            textBox1.Size = new Size(398, 34);
             textBox1.TabIndex = 2;
             // 
             // button1
             // 
-            button1.Location = new Point(427, 118);
+            button1.Location = new Point(793, 194);
+            button1.Margin = new Padding(6, 5, 6, 5);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(139, 38);
             button1.TabIndex = 3;
             button1.Text = "Check";
             button1.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel1
             // 
-            flowLayoutPanel1.Location = new Point(28, 174);
+            flowLayoutPanel1.Location = new Point(52, 287);
+            flowLayoutPanel1.Margin = new Padding(6, 5, 6, 5);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(601, 224);
+            flowLayoutPanel1.Size = new Size(1116, 369);
             flowLayoutPanel1.TabIndex = 4;
             // 
             // CheckInformation
             // 
-            AutoScaleDimensions = new SizeF(7F, 17F);
+            AutoScaleDimensions = new SizeF(13F, 28F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1486, 741);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(button1);
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(6, 5, 6, 5);
             Name = "CheckInformation";
             Text = "Form4";
             ResumeLayout(false);

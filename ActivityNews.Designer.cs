@@ -93,8 +93,10 @@
             Controls.Add(button1);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(4, 5, 4, 5);
             Name = "ActivityNews";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "Activity News";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

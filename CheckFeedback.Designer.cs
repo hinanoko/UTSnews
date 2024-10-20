@@ -77,8 +77,10 @@
             Controls.Add(pictureBox1);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(6, 5, 6, 5);
             Name = "CheckFeedback";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "Form4";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
