@@ -104,6 +104,11 @@ namespace WinFormsApp1
                 return new List<NewsItem>();
             }
         }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 
     // 定义新闻类
