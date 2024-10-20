@@ -69,7 +69,7 @@ namespace WinFormsApp1
                 // 显示成功消息
                 MessageBox.Show($"Login successful! Welcome, {userResponse.User.Name}.");
 
-                if(userResponse.User.Identity == "Admin")
+                if (userResponse.User.Identity == "Admin")
                 {
                     var AdminForm = new AdminForm();
                     AdminForm.Show();
@@ -101,6 +101,11 @@ namespace WinFormsApp1
                 var error = await response.Content.ReadAsStringAsync();
                 MessageBox.Show($"Login failed: {error}");
             }
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 

@@ -28,67 +28,72 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             button1 = new Button();
             button2 = new Button();
             label1 = new Label();
-            label2 = new Label();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(480, 173);
-            button1.Margin = new Padding(4);
+            button1.BackColor = Color.FromArgb(43, 50, 58);
+            button1.BackgroundImage = Properties.Resources.add_user_200px;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(172, 223);
+            button1.Margin = new Padding(6);
             button1.Name = "button1";
-            button1.Size = new Size(175, 44);
+            button1.Padding = new Padding(0, 150, 0, 0);
+            button1.Size = new Size(254, 249);
             button1.TabIndex = 0;
-            button1.Text = "ClickToSignup";
-            button1.UseVisualStyleBackColor = true;
+            button1.Text = "NEW USER?";
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(480, 269);
-            button2.Margin = new Padding(4);
+            button2.BackColor = Color.FromArgb(43, 50, 58);
+            button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button2.ForeColor = Color.White;
+            button2.ImageAlign = ContentAlignment.BottomCenter;
+            button2.Location = new Point(525, 223);
+            button2.Margin = new Padding(6);
             button2.Name = "button2";
-            button2.Size = new Size(175, 42);
+            button2.Padding = new Padding(0, 150, 0, 0);
+            button2.Size = new Size(254, 249);
             button2.TabIndex = 1;
-            button2.Text = "ClickToLogin";
-            button2.UseVisualStyleBackColor = true;
+            button2.Text = "HAVE AN ACCOUNT";
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click_1;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(343, 185);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Font = new Font("Impact", 23.1428585F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(170, 68);
+            label1.Margin = new Padding(6, 0, 6, 0);
             label1.Name = "label1";
-            label1.Size = new Size(62, 20);
+            label1.Size = new Size(306, 67);
             label1.TabIndex = 2;
-            label1.Text = "SignUp";
+            label1.Text = "Welcome to ";
             label1.Click += label1_Click;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(343, 281);
-            label2.Margin = new Padding(4, 0, 4, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(50, 20);
-            label2.TabIndex = 3;
-            label2.Text = "Login";
-            label2.Click += label2_Click;
             // 
             // Form3
             // 
-            AutoScaleDimensions = new SizeF(9F, 20F);
+            AutoScaleDimensions = new SizeF(13F, 28F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1029, 529);
-            Controls.Add(label2);
+            BackColor = Color.FromArgb(23, 27, 33);
+            ClientSize = new Size(951, 577);
             Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(button1);
-            Margin = new Padding(4);
+            Margin = new Padding(6);
             Name = "Form3";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form3";
             Load += Form3_Load;
             ResumeLayout(false);
@@ -100,6 +105,5 @@
         private Button button1;
         private Button button2;
         private Label label1;
-        private Label label2;
     }
 }
