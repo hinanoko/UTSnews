@@ -39,7 +39,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Impact", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(339, 39);
+            label1.Location = new Point(340, 69);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(329, 68);
@@ -49,12 +49,12 @@
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.AutoScroll = true;
-            flowLayoutPanel1.BackColor = Color.FromArgb(63, 67, 73);
+            flowLayoutPanel1.BackColor = Color.White;
             flowLayoutPanel1.FlowDirection = FlowDirection.TopDown;
-            flowLayoutPanel1.Location = new Point(349, 133);
+            flowLayoutPanel1.Location = new Point(349, 164);
             flowLayoutPanel1.Margin = new Padding(4, 5, 4, 5);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(551, 273);
+            flowLayoutPanel1.Size = new Size(523, 266);
             flowLayoutPanel1.TabIndex = 0;
             flowLayoutPanel1.WrapContents = false;
             flowLayoutPanel1.Paint += flowLayoutPanel1_Paint;
@@ -62,12 +62,13 @@
             // button1
             // 
             button1.BackColor = Color.FromArgb(43, 50, 58);
+            button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Consolas", 8.142858F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(349, 440);
+            button1.Location = new Point(349, 467);
             button1.Margin = new Padding(6, 5, 6, 5);
             button1.Name = "button1";
-            button1.Size = new Size(551, 38);
+            button1.Size = new Size(523, 38);
             button1.TabIndex = 1;
             button1.Text = "Publish";
             button1.UseVisualStyleBackColor = false;
@@ -96,7 +97,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(4, 5, 4, 5);
             Name = "ActivityNews";
-            StartPosition = FormStartPosition.CenterParent;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Activity News";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

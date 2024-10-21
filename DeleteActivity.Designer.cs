@@ -28,57 +28,87 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DeleteActivity));
             label1 = new Label();
             textBox1 = new TextBox();
             button1 = new Button();
             label2 = new Label();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(119, 59);
+            label1.Font = new Font("Impact", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(401, 140);
+            label1.Margin = new Padding(6, 0, 6, 0);
             label1.Name = "label1";
-            label1.Size = new Size(165, 17);
+            label1.Size = new Size(489, 68);
             label1.TabIndex = 0;
-            label1.Text = "delete the activity you want";
+            label1.Text = "Delete activity news";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(261, 152);
+            textBox1.Location = new Point(410, 283);
+            textBox1.Margin = new Padding(6, 5, 6, 5);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(403, 34);
             textBox1.TabIndex = 1;
             // 
             // button1
             // 
-            button1.Location = new Point(415, 152);
+            button1.BackColor = Color.FromArgb(43, 50, 58);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Consolas", 9.857143F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(410, 356);
+            button1.Margin = new Padding(6, 5, 6, 5);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(403, 38);
             button1.TabIndex = 2;
             button1.Text = "Delete";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(86, 150);
+            label2.Font = new Font("Impact", 9.857143F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(410, 249);
+            label2.Margin = new Padding(6, 0, 6, 0);
             label2.Name = "label2";
-            label2.Size = new Size(28, 17);
+            label2.Size = new Size(33, 29);
             label2.TabIndex = 3;
-            label2.Text = "ID: ";
+            label2.Text = "ID";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImageLayout = ImageLayout.None;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(-38, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(392, 779);
+            pictureBox1.TabIndex = 15;
+            pictureBox1.TabStop = false;
             // 
             // DeleteActivity
             // 
-            AutoScaleDimensions = new SizeF(7F, 17F);
+            AutoScaleDimensions = new SizeF(13F, 28F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = Color.FromArgb(23, 27, 33);
+            ClientSize = new Size(951, 577);
+            Controls.Add(pictureBox1);
             Controls.Add(label2);
             Controls.Add(button1);
             Controls.Add(textBox1);
             Controls.Add(label1);
+            Margin = new Padding(6, 5, 6, 5);
             Name = "DeleteActivity";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form4";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -89,5 +119,6 @@
         private TextBox textBox1;
         private Button button1;
         private Label label2;
+        private PictureBox pictureBox1;
     }
 }

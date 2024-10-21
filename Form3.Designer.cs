@@ -91,6 +91,7 @@
             Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(button1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(6);
             Name = "Form3";
             StartPosition = FormStartPosition.CenterScreen;
