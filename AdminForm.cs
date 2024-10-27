@@ -10,13 +10,14 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1
 {
+    // AdminForm class derived from Form, representing the admin interface
     public partial class AdminForm : Form
     {
         public AdminForm()
         {
             InitializeComponent();
         }
-
+        // Generic method to open a new form of type T.
         private void OpenNewForm<T>() where T : Form, new()
         {
             var newForm = new T();
